@@ -3,6 +3,7 @@
 }
 body {
   margin: 0;
+  font-size: 1.5em;
 }
 
 body > .book-list {
@@ -25,6 +26,7 @@ body > .book-list > li:first-child {
 
 body > .book-list > li > p {
   margin-bottom: 0;
+  margin-top: 2em;
 }
 body > .book-list > li > p.with-indent {
   text-indent: 1em;
