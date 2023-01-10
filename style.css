@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+body > .book-list {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  list-style-position: inside;
+  column-rule: solid 1px;
+  margin: 20px 0 ;
+  padding: 0;
+}
+
+body > .book-list > li {
+  padding: 1em;
+}
+body > .book-list > li:first-child {
+  padding-top: 0;
+  padding-bottom: 10px;
+}
+
+body > .book-list > li > p {
+  margin-bottom: 0;
+}
+body > .book-list > li > p.with-indent {
+  text-indent: 1em;
+}
+body > .book-list > li > p:first-child {
+  display: inline;
+}
